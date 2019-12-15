@@ -54,7 +54,7 @@ ______
 Preface
 =======
 
-A distributed autonomous organisation (DAO) is a cryptonative and remote-first way for people to coordinate funding, labor, time and social capital. The governance of DAOs are distributed, with all funds and assets managed on-chain via smart contracts. There's no board of directors, nor is there central control of the organisation. They coordinate components of the soft human-facing layer of crypto: money, social capital, reputation and attention. They give power to individuals upon crowd consensus, and are inherently a political tool.
+A distributed autonomous organisation (DAO) is a cryptonative and remote-first way for people to coordinate funding, labor, time and social capital. The governance of DAOs is distributed, with all funds and assets managed on-chain via smart contracts. There's no board of directors, nor is there central control of the organisation. DAOs coordinate components of the soft human-facing layer of crypto: money, social capital, reputation and attention; they give power to individuals upon crowd consensus, and are inherently a political tool.
 
 In 2016, 'The DAO' was created. It was one of Ethereum's first major decentralized applications and also marked the first time the Ethereum community attempted to coordinate through a DAO. While it never was able to operate at scale, it has captured the minds of an entire generation. After the DAO hack, projects such as Aragon and DAOStack continued their efforts in bringing DAOs to the world. These projects carried the torch and made sure DAOs stayed relevant and top of mind within the Ethereum community. 
 
@@ -217,15 +217,17 @@ MetaCartel believes that we will likely see another highly profitable cryptonati
 The Grimoire
 ============
 
-MetaCartel Ventures (MCV) will be a Delaware Limited Liability Company (LLC) that consists of two key components of law, including:
+MetaCartel Ventures (MCV) will be a Delaware Limited Liability Company (LLC) that consists of two key legal components:
 
 -   The DAO's "Grimoire", a Limited Liability Company Agreement, that constitutes a voluntary, legally binding agreement among the members of the DAO
 
 -   The Delaware Limited Liability Company Act, which is a statute (set of laws) determining the default governance rules and meta-rules for LLCs formed in Delaware. 
 
-The Grimoire constitutes a pact among MCV's members, and the statute prescribes meta-rules about how that pact should be written and interpreted. Through the LLC, MCV will be able to enter into legal contracts and engage in investment opportunities without the risk of individual personal liability beyond the capital in the DAO. It will also allow registered legal entities to participate in the DAO's membership as well as the issuance of securities to the DAO.
+The Grimoire constitutes a pact among MCV's members. Meanwhile, the Delaware Limited Liability Company Act prescribes meta-rules about how that pact should be written and interpreted. 
 
-Unlike a typical LLC, the Grimoire enables MCV's governance to become tightly coupled with its Moloch DAO v2 smart contracts. Thus, when a person follows the on-chain procedures for acquiring DAO shares from MCV's smart contract, the person will also legally become a member of MCV, with rights and obligations determined by the terms of the Grimoire and the Delaware Limited Liability Company Act.
+Through the LLC, MCV will be able to enter into legal contracts and engage in investment opportunities without the risk of individual personal liability beyond the capital in the DAO. It will also allow registered legal entities to participate in the DAO's membership as well as the issuance of securities to the DAO.
+
+Unlike the Limited Liability Company Aggreement of a typical LLC, the Grimoire enables MCV's governance to be tightly coupled with a unique deployment of Moloch DAO v2 smart contracts. Thus, when a person follows the on-chain procedures for acquiring DAO shares from MCV's smart contracts (specifically, Moloch.sol), the person will also legally become a member of MCV, with rights and obligations determined by the terms of the Grimoire and the Delaware Limited Liability Company Act.
 
 IMPORTANT: This paper's summary of the Grimoire, the Delaware LLC Act and any other laws referenced in this paper is not intended to be complete and may become inaccurate based on subsequent developments. The summary is qualified in its entirety by the actual contents of the Grimoire and the LLC Act. To the extent that the summaries contained herein conflict with the terms of the Grimoire or the LLC Act, the terms of those writings will control and be determinative as to the outcome of the relevant issues, not the contents of this paper. Please review the disclaimers at the back of this paper and bear them in mind when reviewing the summaries set forth herein. 
 
@@ -237,13 +239,13 @@ MCV's goal is to facilitate a DAO with a focus on open participation where its m
 Community Governance from a Social Perspective
 ----------------------------------------------
 
-Although MCV's fundraising and asset management will happen on-chain, many of its decisions will be coordinated through social consensus, using "off-chain" communication channels such as group chats, video meetings, and in-person meetings. These interactions help the members develop and evaluate ideas, initiatives and values together long before they a formal proposals submitted to a vote of the members. In the cypherpunk tradition that shaped maxims such as "don't trust, verify," the culture of this DAO is one of personal responsibility. Every DAO member will be expected to take an active community role in remaining fully informed about the DAO's developments and progress. 
+Although MCV's fundraising and asset management will happen on-chain, many of its decisions will be coordinated through social consensus, using "off-chain" communication channels such as group chats, video meetings, and in-person meetings. These interactions help the members develop and evaluate ideas, initiatives and values together long before they are submitted as formal proposals to a vote of the members. In the cypherpunk tradition that shaped maxims such as "don't trust, verify," the culture of this DAO is one of personal responsibility. Every DAO member will be expected to take an active community role in remaining fully informed about the DAO's developments and progress. 
 
-As such all DAO members are recognised as managing members of the LLC  and will have full economic, informational and governance rights in the LLC. Within the DAO, there are three main recognised categories of membership, in which a DAO member may fall in and out of depending on the member's level of activity at a given time:
+As such, all DAO members are recognised as managing members of the LLC  and will have full economic, informational and governance rights in the LLC. Within the DAO, there are three main recognised categories of membership,  which a DAO member may fall in and out of depending on the member's level of activity at a given time:
 
 Mages
 
-Mages are DAO members that are considered to be actively participating in the members' shared management efforts, including activities such as sourcing investment opportunities, conducting deal due diligence and conducting asset management. DAO members that are not "accredited investors" must  participate as Mages and should be promptly expelled from the DAO (see "Member expulsion" below) if their level of participation falls below their expected managerial responsibilities. You can think of Mages as the ones who actively study the laws of Magick and practice their knowledge in the battlefields alongside their melee and ranged based comrades, weaving in and out, casting powerful spells and providing strategic advice to field commanders.
+Mages are DAO members that are considered to be actively participating in the members' shared management efforts, including activities such as sourcing investment opportunities, conducting deal due diligence and managing the DAO's assets. DAO members that are not "accredited investors" under applicable securities laws must participate as Mages and should be promptly expelled from the DAO (see "Member expulsion" below) if their level of participation falls below their expected managerial responsibilities. You can think of Mages as the ones who actively study the laws of Magick and practice their knowledge in the battlefields alongside their melee and ranged based comrades, weaving in and out, casting powerful spells and providing strategic advice to field commanders.
 
 Goblins
 
@@ -251,7 +253,7 @@ Goblins are DAO members that may choose not to exercise such rights and powers t
 
 Summoners
 
-Summoning team members are operational delegates responsible for services around legal, financial and coordination related tasks approved, directed and supervised by Mages. Delegates can be, but not need not be members. Summoners', tasks may include but are not limited to:
+Summoning team members are operational delegates responsible for performing legal, financial and coordination-related tasks which are approved, directed and supervised by Mages. Delegates can be, but not need not be members. Summoners' tasks may include but are not limited to:
 
 -   Coordination
 
@@ -259,7 +261,9 @@ Summoning team members are operational delegates responsible for services around
 
 -   Making sure the standard of participation is enforced
 
--   Initiating or encouraging ragekick proposals regarding members that fall below minimum participation
+-   Initiating or encouraging guildKick proposals regarding members that fall below minimum participation
+
+-   Managing bailouts in the event of an exiting member who suffers 'stuck funds'
 
 -   Managing notice mechanism to ensure DAO members are notified about pending proposal votes in time to participate
 
