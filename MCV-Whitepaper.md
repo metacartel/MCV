@@ -319,7 +319,7 @@ In contrast, due to the flexibility and freedoms provided through Moloch DAO v2 
 
 Below we will see some other examples of how qualified code deference and the other features of MCV play out in theory and practice. Readers who wish to appreciate the full details should review the full Grimoire once it is published. 
 
-**Grimoire - Overview of Membership Rights **
+**Grimoire - Overview of Membership Rights**
 
 Both Mages and Goblins are able to do all of the following by  permissionlessly calling functions on MCV's Moloch.sol smart contract:
 
@@ -331,7 +331,7 @@ Both Mages and Goblins are able to do all of the following by  permissionlessly 
 
 Additionally, each member will have the full rights of a "managing member" provided for under the Grimoire and/or the Delaware LLC Act, including being entitled to know the identity of all other members, receive all information about the LLC's activities and participate in the LLC's management, planning, decision-making and day-to-day operations. 
 
-**Grimoire - Voting Standards **
+**Grimoire - Voting Standards**
 
 Proposals are of two types: ordinary and extraordinary. 
 
