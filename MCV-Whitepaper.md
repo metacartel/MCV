@@ -286,82 +286,84 @@ Community Governance from a Technological Perspective
 
 The Moloch DAO v2 smart contract standard is inherently well suited to facilitate MCV's community governance goals by virtue of several features: 
 
-Membership is permissioned
+_**Membership is Permissioned**_
 
--   Membership Admission is Permissioned: Membership for MCV is a permissioned processes which reflects the wisdom of MCV's existing membership. Before new membership proposals are submitted on-chain and voted on, candidates must be first championed by an existing member of MCV and undergo internal member driven evaluation where various aspects of their membership are considered: culture fit, expertise, legal viability, etc...
+-   _Membership Admission is Permissioned_: Membership for MCV is a permissioned processes which reflects the wisdom of MCV's existing membership. Before new membership proposals are submitted on-chain and voted on, candidates must first be championed by an existing member of MCV and undergo internal member-driven evaluation where various aspects of their membership are considered: culture fit, expertise, legal viability, etc...
 
--   Continuing Membership is Permissioned and Community-Policed: For a person to continue being a member of MCV, that person must implicitly have the consent of an economic majority of MCV members. Any member may at any time propose that another member be expelled from the DAO (see "Exiting members" below), and if that proposal is approved by sufficient other members, the person will lose their MCV shares and governance rights while receiving (through one of the mechanisms as described under "Exiting members" below) payment tokens and claims tokens representing the percentage of MCV's property to which the member is entitled under the Grimoire.
+-   _Continuing Membership is Permissioned and Community-Policed_: For a person to continue being a member of MCV, that person must implicitly have the consent of an economic majority of MCV members. Any member may at any time propose that another member be expelled from the DAO, and if that proposal is approved by sufficient other members, the person will lose their MCV shares and governance rights while receiving (through one of the mechanisms as described under "Exiting Members" below) payment tokens and claims tokens representing the percentage of MCV's property to which the member is entitled under the Grimoire.
 
-Membership shares, although potentially conceived as a "tokens" in a loose sense as they are balances tracked on Ethereum, are non-transferable. The Grimoire also prohibits sharing of private keys of the address that "owns" MCV shares on Ethereum, except in the event of a change in ownership by operation of law, such as when a member dies or, if the shares are community property in a marriage, upon a divorce. 
+Membership shares, although they can potentially be viewed as "tokens" in a loose sense (because they are intangibles with balances tracked on Ethereum), are non-transferable. The Grimoire also prohibits sharing of private keys of the address that "owns" MCV shares on Ethereum, except in the event of a change in ownership by operation of law, such as when a member dies or, if the shares are community property in a marriage, upon a divorce. 
 
-Membership Resignation/Reduction  is permissionless
+**Membership Resignation/Reduction is Permissionless**
 
-Moloch DAO v2 smart contracts embodies the cypherpunk design principle of "opt-in" and self-sovereign choice, and thus exit from the DAO has been made as easy, trustless and economically riskless as possible. Hence MCV's members are able to RageQuit at any time with respect to all or any portion of the member's shares and receive payment tokens and claims tokens representing the percentage of MCV's property to which the member is entitled under the Grimoire.
+Moloch DAO v2 smart contracts embodies the cypherpunk design principle of "opt-in" and self-sovereign choice, and thus exit from the DAO has been made as easy, trustless and economically riskless as possible. Hence, each MCV is member is able to RageQuit at any time with respect to all or any portion of the member's shares and receive payment tokens and claims tokens representing the percentage of MCV's property to which the member is entitled under the Grimoire by virtue of the number of shares the member holds in the DAO.
 
 Community Governance from a Legal Perspective
 ---------------------------------------------
 
 MCV's focus on community governance, combined with its mission of investing in the Ethereum ecosystem on a for-profit basis, has led to a number of legal structuring choices. The highlights of these choices are summarized below. 
 
-Grimoire - Qualified Code Deference Approach
+**Grimoire - Qualified Code Deference Approach**
 
-In general, the Grimoire is informed by a belief that traditional legal mechanisms for handling governance issues can be substantially augmented, streamlined and/or eliminated by leveraging blockchain technology that has been designed to minimize transaction costs and execution risks, such as the MolochDAO smart contract system. Many past DAO projects, touting the principle of "code is law", have abandoned legal structuring altogether and sought to defer all legal results to the operation of software. We believe it is more appropriate to continue to utilize legal structures, but to modify them to defer to the outcome of operating software when appropriate--an approach that has been described as "qualified code deference."
+In general, the Grimoire is informed by a belief that traditional legal mechanisms for handling governance issues can be substantially augmented, streamlined and/or eliminated by leveraging blockchain technology that has been designed to minimize transaction costs and execution risks, such as the MolochDAO smart contract system. Many past DAO projects, touting the principle of "code is law", have abandoned legal structuring altogether and sought to defer all legal results to the operation of software. This approach has been described as "absolute code deference." 
+
+We believe it is more appropriate to continue to utilize legal structures, but to modify them to defer to the outcome of operating software--or refer out to data structures and events that are used in or generated by that software--when appropriate. This approach has been described as "qualified code deference."
 
 For example, traditional organizations typically struggle with how to provide members with a "fair exit". Many LLC agreements provide that, when a member exits the organization, that member is entitled to be paid the "fair market value" of the member's membership interests--in many ways, it is as if the LLC is repurchasing the membership interests and needs to establish a fair price.
 
 However,  "fair market value" is a "fuzzy logic" concept in many contexts. To use blockchain lingo, there is no market-based "price feed" or "price oracle" we can use to accurately price the value of an illiquid membership interest in a privately held company in realtime. 
 
-Traditionally, this issue is often dealt with by including in the  Limited Liability Company Agreement or other applicable contract extensive notification, negotiation and arbitration procedures and appraisal standards for determining what "fair market value" means. These provisions will potentially be ambiguous and lead to disputes, requiring a exiting member to be tied up in legal procedures and potentially even court battles for long periods before getting paid. 
+Traditionally, this issue is often dealt with by including in the Limited Liability Company Agreement or other applicable contract extensive notification, negotiation and arbitration procedures and appraisal standards for determining what "fair market value" means. These provisions will potentially be ambiguous and thus could lead to disputes, requiring a exiting member to be tied up in legal procedures and potentially even court battles for long periods before getting paid. 
 
-In contrast, due to the flexibility and freedoms provided through Moloch DAO v2 smart contracts, such complex and litigation-prone contractual mechanisms are not necessary to ensure that members receive fair exit terms. Instead, a exiting member of MCV can immediately and trustlessly receive tokens representing its entire pro rata interest in each of the DAO's individual assets at the time of exit. See below under resignation and expulsion of members for more legal detail on this process and below under asset management for more detail on the technological implementation of this process.
+In contrast, due to the flexibility and freedoms provided through Moloch DAO v2 smart contracts, such complex and litigation-prone contractual mechanisms are not necessary to ensure that members receive fair exit terms. Instead, an exiting member of MCV can immediately and trustlessly receive tokens representing the member's entire pro rata interest in each of the DAO's individual assets at the time of exit. See below under "Grimoire - Resignation and Expulsion of Members" and "Asset Management - Exiting Members" for more on the legal and technological details of this process. 
 
 Below we will see some other examples of how qualified code deference and the other features of MCV play out in theory and practice. Readers who wish to appreciate the full details should review the full Grimoire once it is published. 
 
-Grimoire - Overview of Membership Rights 
+**Grimoire - Overview of Membership Rights **
 
-Both Mages and Goblins are able to, permissionlessly through on-chain functions interacting with MCV's Moloch.sol smart contract, do all of the following:
+Both Mages and Goblins are able to do all of the following by  permissionlessly calling functions on MCV's Moloch.sol smart contract:
 
 -   submit DAO Proposals;
 
--   vote on DAO Proposals; 
+-   vote on DAO Proposals; and/or 
 
--   RageQuit and receive their percentage interest in each of the DAO's assets (see below)
+-   rageQuit to burn some or all of their DAO shares and receive their corresponding percentage interest in each of the DAO's assets (see below under "Grimoire - Resignation and Expulsion of Members").
 
-Additionally, each member will have the full rights of a "managing member" provided for under the Delaware LLC Act, including being entitled to know the identity of all other members, receive all information about the LLC's activities and participate in the LLC's management, planning, decision-making and day-to-day operations. 
+Additionally, each member will have the full rights of a "managing member" provided for under the Grimoire and/or the Delaware LLC Act, including being entitled to know the identity of all other members, receive all information about the LLC's activities and participate in the LLC's management, planning, decision-making and day-to-day operations. 
 
-Grimoire - Voting Standards 
+**Grimoire - Voting Standards **
 
 Proposals are of two types: ordinary and extraordinary. 
 
--   Ordinary: Ordinary proposals include membership admission, membership expulsion, proposed payments to service providers, and proposed investments in other projects. Ordinary proposals are handled entirely on-chain through MCV's Moloch.sol smart contract. They must be sponsored by an existing member, but may be proposed by anyone. The outcome of proposals is decided by a majority of the counted votes, with no quorum requirement. See below under asset management for a more in-depth discussion of ordinary proposal types.
+-   Ordinary: Ordinary proposals include membership admission, membership expulsion, proposed payments to service providers, and proposed investments in other projects. Ordinary proposals are handled entirely on-chain through MCV's Moloch.sol smart contract. They must be sponsored by an existing member, but may be proposed by anyone through Moloch.sol. The outcome of ordinary proposals is decided by a majority of the votes cast on the proposal, with no quorum requirement. See below under "Asset Management - Proposal Types" for a more in-depth discussion of ordinary proposal types.
 
--   Extraordinary proposals: Proposals that pertain to MCV's meta-rules and cannot be handled purely on-chain. If such a proposal is made on-chain and approved without the requisite legal formalities, it will be invalid and will not be honored, and the members responsible should be expelled. Extraordinary proposals require approval by 69% of MCV's then current shares. Examples of extraordinary proposals include any proposal to amend the Grimoire in any material respect (aside from specified exceptions), sell more than 50% of MCV's investment assets to a third party, merge MCV as an LLC with or into another business entity, acquire another a majority of the assets or securities of another business entity or other organization or commence or participate in any legal proceeding.
+-   Extraordinary: Extraordinary proposals pertain to MCV's meta-rules and cannot be handled purely on-chain. If such a proposal is made on-chain and approved without the requisite legal formalities, it will be invalid and will not be honored, and the members responsible should be expelled. Extraordinary proposals require approval by 69% of MCV's then-current shares. Examples of extraordinary proposals include any proposal to amend the Grimoire in any material respect (aside from specified exceptions), sell more than 50% of MCV's investment assets to a third party, merge MCV as an LLC with or into another business entity, acquire a majority of the assets or securities of another business entity / organization or commence or participate in any legal proceeding.
 
-Grimoire - Admission of Members
+**Grimoire - Admission of Members**
 
-Admission of members under the Grimoire strongly ties to the on-chain mechanics of the MolochDAO implementation. Upon proper on-chain configuration of a member proposal and membership voted approval, the prospective individual will become a DAO member and receive the proposed number of shares from Moloch.sol. Each DAO share represents a percentage membership interest in the LLC. Potential members will also be asked to complete certain legal formalities either in advance of the proposal or after it is approved, including electronically signing the Grimoire or a Joinder Agreement, and should be expelled if they fail to comply.
+Admission of members under the Grimoire strongly ties into the on-chain mechanics of the MolochDAO implementation. Once a membership proposal for an individual is approved on-chain, the individual will become a DAO member and receive the proposed number of shares from Moloch.sol. Each DAO share represents a percentage membership interest in the LLC. Potential members will also be asked to complete certain legal formalities either in advance of the proposal or after it is approved, including electronically signing the Grimoire or a Joinder Agreement, and should be expelled if they fail to comply.
 
-Note: technically it is possible under MolochDAO v2 for shares to represent a different voting percentage than they do an economic percentage. For legal and operational simplicity and predictability, the initial version of MCV will not utilize this capability, but it may be added later by amending the Grimoire upon approval of the members. 
+Note: technically it is possible under MolochDAO v2 for shares to represent a different voting percentage than they do an economic percentage. Pure economic interests are referred to as "loot". For legal and operational simplicity and predictability, the initial version of MCV will not utilize this capability, but it may be added later by amending the Grimoire upon approval of the members. 
 
-Grimoire - Resignation and Expulsion of Members
+**Grimoire - Resignation and Expulsion of Members**
 
-Members may resign from the DAO at any time by RageQuitting or may also be expelled through a membership vote. In both cases, these functions are called through the Ethereum blockchain and triggers an on-chain distribution of tokens from the DAO's GuildBank smart contract to the member's recorded Ethereum address. These tokens represent the exiting member's percentage interest in MCV's assets.
+Members may resign from the DAO at any time by RageQuitting or may also be expelled if a membership proposal known as a GuildKick is approved by the members. In both cases, the relevant functions are called through the Ethereum blockchain and trigger an on-chain distribution of tokens from the DAO's GuildBank smart contract to the member's recorded Ethereum address. These tokens represent the exiting member's percentage interest in MCV's assets.
 
 In the typical case, the exiting member will receive a mix of: 
 
--   "RageTokens": Freely trading payment tokens such as ETH and DAI;
+-   "RageTokens": Freely trading payment tokens such as ETH and DAI; and
 
--   "RageClaims": Non-transferable, personal, economic tokens that represents the exiting DAO member's remaining economic pro rata claim to the DAO's future income from the revenue-generating assets the DAO holds at the time of the member's exit;
+-   "RageClaims": Non-transferable, personal, economic tokens that represents the exiting DAO member's remaining economic pro rata claim to the DAO's future income from the revenue-generating assets the DAO holds at the time of the member's exit.
 
 The Grimoire provides that the members all agree that the RageTokens and RageClaim represent the fair market value of an exiting member's membership interest in MCV, and that no exiting member may contest that value under any circumstances.
 
-An analogy of this with traditional LLCs, would be as if a member were holding 5% of the LLC's membership interests could leave at any time and give up all governance rights but receive 5% of the LLC's cash and cash equivalents at the time of exit along side a continuing right to collect 5% of any profits from the LLC's then-current revenue-generating assets. 
+To give a simplified example, a member holding 5% of the LLC's membership interests can leave at any time and give up all governance rights but receive 5% of the LLC's cash and cash equivalents at the time of exit, alongside a continuing right to collect 5% of any profits from the LLC's then-current revenue-generating assets. 
 
-This is very similar to how LLCs normally handle a member's unexpected death: the deceased member's interests in the DAO are converted into a pure, non-transferable economic interest with no other membership or governance rights, but which may be inherited by the member's heirs without fear of disrupting the LLC's governance.
+This is very similar to how traditional LLCs normally handle a member's unexpected death: the deceased member's interests in the DAO are converted into a pure, non-transferable economic interest with no other membership or governance rights, but which may be inherited by the member's heirs without fear of disrupting the LLC's governance.
 
-Grimoire - Obligations of Mages
+**Grimoire - Obligations of Mages**
 
-DAO members who do not meet the definition of "accredited investor" under applicable securities laws are obligated to have relevant managerial expertise and maintain a robust managerial role within MCV at all relevant times and hence required to fulfill the role of a "Mage". These DAO members must participate in the DAO in an active capacity and act as a 'general partner' to other involved Mages. They are participating in the DAO as a means of collaboration and co-managing the DAO's assets with other Mages as opposed to seeking passive financial returns. The roles of Mages may include some but not necessarily all of the following activities, including:
+DAO members who do not meet the definition of "accredited investor" under applicable securities laws are obligated to have relevant managerial expertise and maintain a robust managerial role within MCV at all relevant times. MCV describes members who actively participate in management as "Mages". These DAO members fully utilize their maangerial rights and thus act as a 'general partner' of the other Mages. They are participating in the DAO as a means of collaboration and co-managing the DAO's assets with other Mages as opposed to seeking passive financial returns. The roles of Mages may include some but not necessarily all of the following activities, including:
 
 -   Participation in the DAO's telegram group chat other communication channels with relevant and meaningful engagements.
 
@@ -385,17 +387,17 @@ DAO members who do not meet the definition of "accredited investor" under applic
 
 -   Providing other DAO members opportunities for networking and introductions to specific investment opportunities (but without acting as broker/dealers or investment advisors unless so licensed) 
 
-The DAO will implement a reputation system to track and evaluate each Mage's performance, duties and contributions to the DAO. Mages who will not be active for a limited period of time for good reason due to life circumstances may arrange to have the absence approved and appoint a proxy member to participate in governance on behalf of their absence. Otherwise, Mages that are found to be inactive or providing insufficient value to the DAO will be RageKicked. Alternatively, if the Mage is considered to be an "accredited investor", they may be downgraded into the category of Goblin and thrown back in their moldy dens with their gold.
+The DAO will implement a reputation system to track and evaluate each Mage's performance, duties and contributions to the DAO. Mages who will not be active for a limited period of time for good reason due to life circumstances may arrange to have the absence approved and appoint a proxy member to participate in governance on behalf while they are absent. Otherwise, Mages that are found to be inactive or providing insufficient value to the DAO will be expelled through a GuildKick proposal. Alternatively, if the Mage is considered to be an "accredited investor", they may be downgraded into the category of Goblin and thrown back in their moldy dens with their gold.
 
-It is also expected that the persons who have mandatory Mage status will be limited to a relatively small group. If the group of Mages becomes too large, it may become difficult for each Mage to participate as fully in the governance of MCV as is required for the role. Over time, as MCV's off-chain social procedures for encouraging communication and information flow among members improve, the upper bound of the number of Mages who may robustly participate without reducing governance quality should increase.
+It is also expected that the persons who have mandatory Mage status--i.e., unaccredited investors--will be limited to a relatively small group. Securities laws issues aside, there are scaling constraints on partnership-style governance structures. If the group of Mages becomes too large, it may become difficult for each Mage to participate as fully in the governance of MCV as is required for the role. Over time, as MCV's off-chain social procedures for encouraging communication and information flow among members improve, the upper bound of the number of Mages who may robustly participate without reducing governance quality should increase.
 
-Grimoire - Liabilities of Members
+**Grimoire - Liabilities of Members**
 
-In general, the Delaware Limited Liability Company Act enables the members of an LLC with limited personal liabilities, where individuals are not personally liable for a debt or other obligation or liability incurred by the LLC. Despite this, and due to the permissionless RageQuit functionality, the members should run MCV so as not to incur liabilities in excess of its assets, and in fact should maintain assets comfortably in excess of liabilities.
+In general, the Delaware Limited Liability Company Act enables the members to invest in an LLC and participate in an LLC's affairs with the protection of "limited liability." This means that individuals are not personally liable for a debt or other obligation or liability incurred by the LLC. However, a member may have liability for receiving distributions of assets from the DAO at a time when MCV as an entity did not have a sufficient surplus of assets over liabilities. To maintain the legality of permissionless exit through rageQuit, MCV should always be managed on a net-positive-asset basis so that there are sufficient net assets in excess of liabilities to cover distributions to members when they exit. 
 
 Limited liability also does not apply in connection with actions a member takes without authorization (e.g., signing a SAFT for MCV before a proposal for the SAFT has been approved), illegal actions or actions that disregard the separateness of the LLC (e.g., using the Guild Bank as a substitute for their personal bank account and regularly rotating into and out of membership). 
 
-Grimoire - Fiduciary Duties & Indemnification
+**Grimoire - Fiduciary Duties & Indemnification**
 
 Traditionally (though not always), non-managerial members of an LLC are protected through the fiduciary duties on the LLC's managers where they exercise loyalty to and/or provide professional care on behalf of non-managerial members. Upon breaches of trust, aggrieved members can then sue the LLC's managers for the breach of fiduciary duties and mismanagement. This can even be the case in member-managed LLCs or in full-blown general partnerships where all partners have equal information. However, fiduciary duties are a "fuzzy" standard, and are often displaced, even in traditional corporate law and deal-making, with more negotiated, tailored contractual arrangements. 
 
@@ -403,13 +405,13 @@ Consistent with this modernization of corporate law, under the MolochDAO spirit,
 
 Consistent with the Moloch DAO's individualistic and simple design philosophy, no member or manager will have a right of indemnification from the LLC or the other members. Each member and manager is solely responsible for any liabilities that member or manager personally incurs in connection with involvement in the DAO, unless otherwise specifically agreed through a binding proposal approved by the DAO members.
 
-Securities Law Issues - MCV Buying Other Issuer's Securities / MCV's Accredited Investor Status 
+**Securities Law Issues - MCV Buying Other Issuer's Securities / MCV's Accredited Investor Status **
 
 MetaCartel Ventures aims to participate in a wide range of investment opportunities ranging from cryptonative tokens which may not be securities to SAFEs, SAFTs, revenue-sharing arrangements and other types of debt or equity securities. Because many projects rely on the exemptions from securities registration provided by Rule 506(c)(3) under Regulation D, which requires that all the participating investors be "accredited investors," MCV requires to be recognised as an "accredited investor" under the applicable standards for the accreditation of legal entities under Regulation D. This will be the case if MCV either only has members who are "accredited investors" under the net worth or income tests of Rule 501 of Regulation D or if MCV itself has assets in excess of $5M.
 
 This means that MetaCartel Venture's initial membership will be limited to individuals satisfying the financial tests for being an "accredited investor." Such individuals must either have individual net worth, or joint net worth with a spouse, exceeding $1,000,000 or must have income exceeding $200,000 in each of the two most recent years or joint income with a  spouse exceeding $300,000 in each of those years and have a reasonable expectation of reaching the same income level in the current year. Only once MCV manages more than $5,000,000 USD in assets, could individuals that are deemed to be "unaccredited investors" potentially become members of MCV (as Mages), without adversely affecting MCV's ability to invest in other projects.
 
-Securities Law Issues - MCV Issuing MCV Shares - Members' Accredited Investor Status
+**Securities Law Issues - MCV Issuing MCV Shares - Members' Accredited Investor Status**
 
 As MCV issues out membership interests to its members, it must ensure that its transactions are either registered or exempt from registration (eg. pursuant to Rule 506(c)) under applicable securities laws.
 
@@ -421,7 +423,7 @@ While MCV may choose to avail itself of any securities law compliance path, it i
 
 -   persons who have the competence and willingness to serve as Mages and thus function as general partners of MCV may become Mages and may remain Mages for as long as they fulfill their Mage responsibilities, and either their membership interests will not be securities or, if they are, the transaction will be exempt because the Mages qualify as general partners and thus accredited investors under Rule 501(a)(4) of Regulation D or because the transaction is exempt under Rule 701.
 
-Tax Law Issues 
+**Tax Law Issues **
 
 The LLC will be taxed as a U.S. partnership, meaning that the LLC pays no taxes but its members do. As a result, each member's pro rata share of the profits and losses of the LLC will be reportable as the member's individual income or loss each year. The Mages will be responsible for ensuring that each year the LLC engages tax accountants to prepare a Schedule K-1 for each member setting forth the member's share of the LLC's profits and losses for that year. The Mages will also be responsible for causing each Schedule K-1 to be filed with the IRS each year. Every member will need to submit a Form W-9 or Form W-8BEN, as applicable, as part of the member's onboarding, to certify that the member is exempt from backup withholding on distributions of funds from the DAO.
 
@@ -449,21 +451,21 @@ A member who is partially or completely leaving MCV: whether because that member
 
 Assets are of two types: cash and cash equivalents, which in most cases will be tradable cryptonative tokens ("RageTokens"), or revenue-generating assets ("RageClaims"). 
 
-RageTokens
+**RageTokens**
 
 A percentage of cryptonative tokens then currently held in the GuildBank equal to the member's percentage membership interest in the DAO. These will be immediately tradable and do not represent any contractual right against the DAO.
 
-RageClaims
+**RageClaims**
 
 A percentage of claims tokens then currently held in the Guildbank equal to the member's percentage membership interest in the DAO. Although these may be a variety of tokens corresponding to different ClaimsToken.sol contracts existing at the time of the exit, they are best conceived of as a jumbo economic remainder interest in the DAO that represents a contractual claim to receive future proceeds of the specific investments that the DAO has at the time of the member's exit. These tokens/rights are non-transferable and are personal to the exiting member.
 
 The exiting member will not be entitled to receive the securities of the companies that the DAO has invested in and will not have any direct rights against those companies; rather, the exiting member will have a right to claim a percentage of the DAO's proceeds from those securities.
 
-Hybrid RageToken/RageClaim
+**Hybrid RageToken/RageClaim**
 
 RageClaims relating to a SAFT may end up being redeemable for either the exiting member's pro rata share of a refund or the exiting member's pro rata amount of a cryptonative token to be issued in the future. In the latter case, the RageClaim token will need to be redeemed in exchange for the relevant cryptonative tokens once they are delivered to the ClaimsContract pursuant to the converted SAFT (or once the cryptonative tokens become tradeable, if they are subject to a lock-up).
 
-RageQuits
+**RageQuits**
 
 As discussed above under "Grimoire," a member may "RageQuit" (voluntarily resign as a member), in whole or in part, at any time, by calling the RageQuit function with reference to a specific number of the member's shares. A partial RageQuit is a reduction in shares. A complete RageQuit is a resignation of membership. In most cases, a RageQuit or RageKick will work seamlessly. However, there are several game theoretical edge cases that are addressed with MolochDAO v2: 
 
