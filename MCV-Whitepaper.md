@@ -8,45 +8,7 @@ v1.0 DECEMBER 2019
 
 ______
 
-[NOTE: This document is subject to important legal and informational disclaimers provided at the end of this document. Please carefully review such disclaimers and bear them in mind when interpreting this document. MCV's arrangements are under continuing negotiation, study and refinement. MCV may, but will not be required to and does not promise to update this document based on subsequent developments.](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.gaxvqj9f1ged)
-
-[Preface  3](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.na9qzkhux0cm)
-
-[Context  4](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.blbg3by9u289)
-
-[Introduction  5](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.6whk496wrmic)
-
-[Why use a DAO?  5](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.sugz0lycvotl)
-
-[Trade-offs  6](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.wusi0djhashu)
-
-[MetaCartel's positioning  7](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.bgksufpup3s4)
-
-[Market Opportunities  8](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.t6cwofjqwooo)
-
-[Early signs of product market fit with Ethereum DApps  8](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.xdh5tgr0kmll)
-
-[An immature, yet rapidly growing venture environment  9](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.32kilzkcbgx3)
-
-[New Experiments in Hypercapitalism  9](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.t8dcx6kp4e3k)
-
-[The Grimoire  10](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.osqpmr5spw46)
-
-[The goals of the Grimoire  10](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.457xtvy1iiyd)
-
-[Community Governance from a Social Perspective  11](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.rydeitvap5lk)
-
-[Community Governance from a Technological Perspective  13](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.swbe37b1ftxc)
-
-[Community Governance from a Legal Perspective  14](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.uuzbdyayscii)
-
-[Asset Management  21](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.gntb0agno6cg)
-
-[Exiting members  21](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.jggoq3ejv06n)
-
-[Proposal types  23](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.86c0b88id2nc)
-
-[Investment flow of funds  26](https://docs.google.com/document/d/1cZEHKmQ1dqGB2Sn3oSM-wLRQjOKkmpRF6F69PFqh8tM/edit#heading=h.3yzope1jciuj)
+[NOTE: This document is subject to important legal and informational disclaimers provided at the end of this document. Please carefully review such disclaimers and bear them in mind when interpreting this document. MCV's arrangements are under continuing negotiation, study and refinement. MCV may, but will not be required to and does not promise to update this document based on subsequent developments.]
 
 *Big shout out to James Waugh, Cooper Turley, Eva Beylin, Drew Harding, Garrett MacDonald, James Young and Alex Masmej for editing and adding to the paper
 ==========================================================================================================================================================
