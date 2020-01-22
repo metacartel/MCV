@@ -385,7 +385,7 @@ While MCV may choose to avail itself of any securities law compliance path, it i
 
 -   persons who have the competence and willingness to serve as Mages and thus function as general partners of MCV may become Mages and may remain Mages for as long as they fulfill their Mage responsibilities, and either their membership interests will not be securities or, if they are, the transaction will be exempt because the Mages qualify as general partners and thus accredited investors under Rule 501(a)(4) of Regulation D or because the transaction is exempt under Rule 701.
 
-**Tax Law Issues **
+**Tax Law Issues**
 
 The LLC will be taxed as a U.S. partnership, meaning that the LLC pays no taxes but its members do. As a result, each member's pro rata share of the profits and losses of the LLC will be reportable as the member's individual income or loss each year. The Mages will be responsible for ensuring that each year the LLC engages tax accountants to prepare a Schedule K-1 for each member setting forth the member's share of the LLC's profits and losses for that year. The Mages will also be responsible for causing each Schedule K-1 to be filed with the IRS each year. Every member will need to submit a Form W-9 or Form W-8BEN, as applicable, as part of the member's onboarding, to certify that the member is exempt from backup withholding on distributions of funds from the DAO.
 
