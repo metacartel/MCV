@@ -479,11 +479,11 @@ Investment flow of funds
 
 ![](https://lh3.googleusercontent.com/Ye64KPlPYuv4nw_jwC9hXf2Qlc9HviVaZBkunErvPKjRXR0T80TdD_0lK0cc92SnhUTW6jgJHMceX9PiQANJacXdBkdekh7rD63K6lXZlpnahdwWfJSWmnUSryJSzkJmgYJqmuXt)
 
-Investment in a cryptonative token (Ethereum mainnet ERC-20 tokens)
+**Investment in a cryptonative token (Ethereum mainnet ERC-20 tokens)**
 
 The DAO may invest directly into live ERC-20 cryptonative tokens or manage its portfolio through conducting an OTC trade with a liquidity supplier. If such a proposal passes, the cryptonative tokens to be accepted by the DAO as "tribute", and the GuildBank will send either a specified whitelisted token in return as payment or potentially also decide to award DAO membership in exchange.
 
-Investment in a SAFT or a security of a company
+**Investment in a SAFT or a security of a company**
 
 When the DAO is making an investment into securities or revenue generating assets, its flow of funds is similar to cryptonative token investments. Instead of an cryptonative token being accepted as tribute, a specified ERC-20 token corresponding with an instance of that investment's claims tokens contract is accepted by the GuildBank. 
 
@@ -497,11 +497,11 @@ When the DAO is making an investment into securities or revenue generating asset
 
 Assuming all paperwork has been finalised and signed, the Mages or summoning team will release the payment to the seller to pay for the investment. 
 
-SAFT Waiting period
+**SAFT Waiting period**
 
 If the initial investment is a SAFT, then there is theoretically an undetermined waiting period between the time of investment and the realisation of the desired liquid tokens (including token lockup conditions). This waiting period could be either be short or quite lengthy, depending on the terms of the investment and/or the ensuing series of events. During this period, DAO members that RageQuit with their RageClaims may redeem such cryptonative tokens once the SAFT converts into the right to receive such tokens and the issuer delivers them through the claims token contract. 
 
-Revenue from equity securities
+**Revenue from equity securities**
 
 If the investment is an non-cryptonative equity or debt security, the investment transaction is considered immediate as the DAO enters into a legal contract. These may include securities which may steadily pay dividends over time, or may remain illiquid for a long period, until there is a "liquidity event" such as an acquisition or IPO of the issuing company (in the case of an equity security) or "maturity date" (in the case of a debt security).
 
@@ -509,7 +509,8 @@ In all such cases, it is possible that DAO members could RageQuit or be RageKick
 
 In the case of significant returns from certain equity positions eg. when a DAO's portfolio company is acquired and results in a 20x return, the DAO may also decide to sell a certain portion of those returns back into the DAO. While usually, future revenue of a corresponding claims token contract are deposited so that all exited DAO members with RageClaims are able to realise the same financial gain, the DAO may decide to re-invest its entitled share of profits back into the DAO and manage the distribution of Rage Claims manually to their entitled holders off-chain managed by Mages or Summoners.
 
-Disclaimers 
+Disclaimers
+-----------
 
 THIS PAPER IS NOT INTENDED TO CONSTITUTE AN OFFER TO SELL, OR SOLICITATION OF AN OFFER TO BUY, ANY SECURITIES.
 
