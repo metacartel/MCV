@@ -339,9 +339,9 @@ DAO members who do not meet the definition of "accredited investor" under applic
 
 -   Interviewing potential investment opportunities
 
--   Sharing insights and provide analysis around investment opportunities
+-   Sharing insights and providing analysis around investment opportunities
 
--   Coordinating with other members, champion and support investment opportunities
+-   Coordinating with other members to champion and support investment opportunities
 
 -   Helping to admit and champion a new valuable DAO member into the DAO
 
